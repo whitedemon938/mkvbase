@@ -1,0 +1,8 @@
+aiohttp
+flask
+gunicorn
+motor
+pyroblack==2.5.7
+python-dotenv
+TgCrypto
+uvloop
