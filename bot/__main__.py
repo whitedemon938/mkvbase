@@ -1,5 +1,6 @@
 from asyncio import gather
 
+from pyrogram.filters import command, private
 from pyrogram.handlers import MessageHandler , CallbackQueryHandler
 
 from bot import bot, bot_name, LOGGER
