@@ -1,6 +1,7 @@
 from pyrogram.types import BotCommand
 
 from bot import bot, LOGGER
+from bot.helper.bot_commands import BotCommands
 
 async def set_commands(bot):
     user_commands = [
